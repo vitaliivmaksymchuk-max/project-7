@@ -1,0 +1,16 @@
+/* Захист від переповнення наддовгими словами без пробілів */
+.card-text,
+#items-list li,
+p,
+h1, h2, h3 {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+/* Помітний фокус для навігації з клавіатури (Tab) */
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 3px solid #005fcc;
+  outline-offset: 2px;
+}

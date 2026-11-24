@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Обов'язково для 100 балів у Lighthouse SEO -->
+  <meta name="description" content="Інтерактивний веб-додаток з перевіркою доступності, адаптивності та модульними тестами.">
+  <title>Мій веб-проєкт</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Основний скрипт та ізольовані тести з defer -->
+  <script src="script.js" defer></script>
+  <script src="tests.js" defer></script>
+</head>
+<body>
+  <!-- Приклад доступної форми -->
+  <main>
+    <form id="item-form">
+      <label for="user-input">Назва елемента:</label>
+      <input type="text" id="user-input" name="user-input" placeholder="Введіть текст..." required>
+      <button type="submit">Додати</button>
+    </form>
+    <ul id="items-list"></ul>
+  </main>
+</body>
+</html>
